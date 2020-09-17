@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import UpPage from "./UpPage";
+import MiddlePage from "./MiddlePage";
 
 import jquery from "jquery";
 import bootstrap from "bootstrap";
@@ -15,6 +16,7 @@ function app() {
   return (
     <div>
       <UpPage />
+      <MiddlePage />
     </div>
   );
 }

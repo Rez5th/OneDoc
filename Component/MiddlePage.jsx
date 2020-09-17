@@ -10,21 +10,20 @@ import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function UpImage() {
+function MiddleImage() {
   return (
     <section className="container">
-      <div>
-        <h1 className="position-absolute text-light bg-dark">
-          Now and One Sec
-        </h1>
-        <img
-          className="img-fluid"
-          src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          alt="OneDoc"
-        />
-      </div>
+      <form>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="customFile" />
+
+          <label class="custom-file-label" for="customFile">
+            Choose file
+          </label>
+        </div>
+      </form>
     </section>
   );
 }
 
-export default UpImage;
+export default MiddleImage;
